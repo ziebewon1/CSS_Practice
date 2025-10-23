@@ -1,0 +1,38 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+    margin : 0;
+    padding: 80px;
+    gap: 30px;
+    height : 100vh;
+}
+div {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    width : 500px;
+}
+div p {
+    margin-bottom: 10px;
+}
+button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.7;
+}
+button.green {
+    background: green;
+}
+button.orange {
+    background: orange;
+}
+button.purple {
+    background: purple;
+}
